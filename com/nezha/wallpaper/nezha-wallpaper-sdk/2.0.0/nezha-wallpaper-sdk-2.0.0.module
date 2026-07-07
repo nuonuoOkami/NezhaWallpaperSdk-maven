@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.nezha.wallpaper",
+    "module": "nezha-wallpaper-sdk",
+    "version": "2.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nezha-wallpaper-sdk-2.0.0.aar",
+          "url": "nezha-wallpaper-sdk-2.0.0.aar",
+          "size": 183925,
+          "sha512": "d39078a46e4d04a94e37a1cac6bd6e1fb5ad3bf7ca3a3665f0f176273cea67a8d4126c7041fad2ac1dc44f2d33b0fce16a9c9560c5c21b728c30c44529194201",
+          "sha256": "fb1d38cb447a6bda3189bc3765f54c02180aac01c31f37b59ad67625b8767d01",
+          "sha1": "987416a00641fbb1d248fbc670eba5dc12756781",
+          "md5": "353f96a4c000babb9a8b828a2186906d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-ktx",
+          "version": {
+            "requires": "1.9.3"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.tencent",
+          "module": "mmkv",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.greenrobot",
+          "module": "eventbus",
+          "version": {
+            "requires": "3.2.0"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer",
+          "version": {
+            "requires": "2.19.1"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nezha-wallpaper-sdk-2.0.0.aar",
+          "url": "nezha-wallpaper-sdk-2.0.0.aar",
+          "size": 183925,
+          "sha512": "d39078a46e4d04a94e37a1cac6bd6e1fb5ad3bf7ca3a3665f0f176273cea67a8d4126c7041fad2ac1dc44f2d33b0fce16a9c9560c5c21b728c30c44529194201",
+          "sha256": "fb1d38cb447a6bda3189bc3765f54c02180aac01c31f37b59ad67625b8767d01",
+          "sha1": "987416a00641fbb1d248fbc670eba5dc12756781",
+          "md5": "353f96a4c000babb9a8b828a2186906d"
+        }
+      ]
+    }
+  ]
+}
